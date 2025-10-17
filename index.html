@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silverback Auto - Car Service Centre. Any Car, Any Repair, Any Time.">
+    <meta name="keywords" content="Car repair, car services, turbo upgrade, dyno, gearbox repair">
+    <meta name="author" content="Silverback Auto">
+    <meta property="og:title" content="Silverback Auto">
+    <meta property="og:description" content="Professional car repair and performance tuning. Any Car, Any Repair, Any Time.">
+    <title>Silverback Auto | Car Service Centre</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header>
+    <!-- <div class="top-bar">
+        <span><a href="tel:+27737810726">📞 0737810726</a></span>
+        <span><a href="mailto:kennygabuza888@gmail.com">✉️ silverbackauto@gmail.co.za</a></span>
+    </div> -->
+    <div class="nav-bar">
+        <div class="logo">Silverback Auto</div>
+
+        <!-- hamburger menu -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="nav-menu">
+            <ul class="nav-items">
+                <li  class="nav-item"><a href="#home">Home</a></li>
+                <li  class="nav-item"><a href="#services">Services</a></li>
+                <li  class="nav-item"><a href="#about-us">About Us</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <div class="nav-item btn"><a href="#contact">Contact</a></div> -->
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content fade-in-up">
+        <h1 class="hero-headline">Expert Car Repair You Can Trust</h1>
+        <p class="sub-headline">Fair pricing, honest diagnostics, and long-lasting repairs. We get you back on the road, safely and confidently.</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Schedule Your Repair</a>
+            <a href="#map" class="btn-secondary">Find Our Location</a>
+        </div>
+    </div>
+    <div class="hero-image fade-in">
+        <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" alt="Hero Image">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="content fade-in-up">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>
+                A silverback's strength is matched only by its intelligence. At Silverback Auto, we operate the same way. Our power comes from advanced diagnostics and decades of master-level experience. We don't just fix the symptom; we find the root cause, providing wise, lasting solutions for your vehicle.
+            </p>
+            <p>
+                From regular maintenance to complex repairs, we handle every vehicle as if it were our own — with honesty, precision, and care. At Silverback Auto, strength meets skill for service you can always rely on.
+            </p>
+        </div>
+        <img
+        src="https://img.freepik.com/premium-photo/garage-mechanic-team-working-car-auto-service-black-african-people-professional-worker-together_43300-4274.jpg"
+        alt="About Us Image"
+        class="about-image fade-in"
+        />
+    </div>
+</section>
+<!-- <section class="about" id="about">
+    <div class="content">
+        <img src="https://img.freepik.com/premium-photo/garage-mechanic-team-working-car-auto-service-black-african-people-professional-worker-together_43300-4274.jpg" alt="About Us Image">
+        <div class="about-content">
+            <h1>About Us</h1> <br>
+            <p>A silverback's strength is matched only by its intelligence. At Silverback Auto, we operate the same way. Our power comes from advanced diagnostics and decades of master-level experience. We don't just fix the symptom; we find the root cause, providing wise, lasting solutions for your vehicle</p>
+            <p>A silverback's strength is matched only by its intelligence. At Silverback Auto, we operate the same way. Our power comes from advanced diagnostics and decades of master-level experience. We don't just fix the symptom; we find the root cause, providing wise, lasting solutions for your vehicle</p>
+        </div>
+    </div>
+</section> -->
+
+<section class="service">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+        <div class="service-card" >
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhIWFRUVFRcXFxUYFxcYFRIWFRUWFxUVFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMsOCgtLisBCgoKDg0OGhAQGi0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tKy0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAgMEBgcAAQj/xABJEAACAQIEBAQDBQUEBwYHAAABAgMAEQQSITEFBkFREyJhcYGRsQcjMkKhFFJywdEzYuHwFUNEgpKisiRTVMLS8RYXNHODk7T/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAIDBP/EACARAQEBAAIDAQEBAQEAAAAAAAABEQIhEjFRA0FhcTL/2gAMAwEAAhEDEQA/AMlZntrS+Ht5rd6dnxC20qLhG8wPrURPGJaxqFLrRTHpdDQkHSso7GacWmYzTymppPw1FsMtB8LIL70cwlZrcS1SnUjpUYFSIkrLSu8wQ6VUPFKkgaX0NX/mGLy1RFiuSTsDXb85rj+lwwkBOwvXrRZfxAin5MQdl0FcJ3IsReu2Ry2mgg6GmnUdqckS2trUhzWK1DF7HSpSlW30Peoz15HRKkwQEfz7Gk5bUgX71efs95N/az40w+4ViLdZWG49FB377U1HPs25S8dxiZl+6Q/dg/6xh+b+EfX2rXctLgw6ooVVCqosABYADoBTmSsFVeeU/wCyyfwn6Vj3Ls4EwB1DaEdwa2znaK+Fl/gb6VgHD2IkU+tUQhzHwk4eXT+zfzIfqvuKixG4rSMVwwYrCFPzAXQ9mG1ZoiFHKOMrKbEHoa3BXTR3pgrU1l0qKf51qwSlIlLkSlxLpSJZO1WdBHy30pthanDTZFYaJrr11JJqQhwPhEmJkyJ01Zjsoq3j7OJD/tKj/wDGf/VRv7P+FCLChiPNL5z3t+UfKrTGNKCzv/5Zv/4lf/1n/wBVRsTyBKhsJg2l75CPh+KtOzUhwKEy2TlJgKgYjh6RK2YkNl8gAOpJte+1gA1TODYqbUtK3hroQT+I20UE7aak9B7imJ3aVywFwNug9/T+lanEXkZixPlyMQdNDcH4G31qAiE7CjksULYdWZmztIRbSwVbajqb6/pTEYlPkgOctoAdCPbufTWq8VoaMLJ2t76V40UgF8pI7r5h/wAt7UWwoxwdkKurILsJFK5Ra+pNraX+VEZXnC3kwpvp5smdSO9x5h06mjIdVBMVrvRCDizKN6sKYSORQ0kVlJy5zd0DH8rMR4kTe5t6VAx3K3mYQ3JVc5U62Gt1v3Fvj6UWGWo0fHm71a+A43xLVQRgm7VceT47GsWN8bdGOYI/Ifas5jjZyQNr/CtQ4+n3ZJ6A1RMKll01LHQAa/Ku34Tdc/2vpAbA+tMNEy+oo3LhZALmKQDuUYD5kU3AAReu94y+nHaEmS4s1MINxUziUYBFviO1Q0/FXLl7bhkimlqSetMFdaw0svKHK0uOfKpyRqfPIenoo6tW+8J4YmHhSGMWRBYdz3JPUneqf9lCj9mWwt/M9TWhBaLSZyV2Sn8tdloSvc2x3w0n8DfSvnIGxU+or6Z5ljvh5P4T9K+Z2XSqJr3Kk2aIewoHz/y34inERDzqPOB+de/uKlchzXjWrjkrQfP6zt3rg9/f61c+f+UjAf2iFfumPnA/1bHr/CapFIPAmuNMmSu8SrSWTSGNJLV5ehONJr00vKBv8qCmwcXmUALNKoGgAdrD2F9KlpxrFbjES/8AG1Bs/YUoSN3plA0OYsYP9ol+d/rXHmTGf+Ik+Y/pQkYk9aWs9PQ7E5McLZQLACwHpuSbdSdT8O1FOEyBIzK2rWKovQdCbVV1330+lEzxBQAANANBTOQsLigBNzp7dKkvw9LZs5FtehGlQGxzNpoB6U8gLC3f9KtiytQ+zCfx0aa0ZKAwkaZyLhr3tcKbnQk632olj+O4SOOSWSKZGR8rRgMtrGwbynIQbb3PbesWwHEXw8rGB2RgbLIpINut7aMPQ0XxPHsViY0hmlzpHcXtZnBIPnP5tqz00IYjjrYm9kyXJBa4s0d7jMBa52pPEOLLHF4URsG0d/zP6D0oTPOFWw+XeoH7HJIbkH27Vm/61P8ABhMUnh260a5aIuLVVJ8GYkzubDYep7CrFy1xVI8MHKjxPEIJ9LgiwOg0P6Gjjx8mvLPa2cT4TJicsS+RG1eUg2VR0X95j/n1sPCeGYfDoqIt8o1Y2zOepJoPjOKMoQE6tt8aJYGS9wdSp197V2nHJjnbt0Sfw20y/wAvpVM505dXwnmhUB0GY2Fs6j8VwNCba3qxxcRjaTwwwL2zZb65b2zEdr6UzzNjjBAWTV2IROvma+tutgCbelOYNYXiZsxvTSjXSjXEeX3zqcOpkVyQQo/snAuynoF1uDtbTpVr4JwKLBxmWZlaYi1txGOw7n1rHLlhnHWbTow3BHvSI5OlE+YsQHkJHehArOlun2Qm+GX4/U1o4Ws1+xo3ww9z9TWnAUIjLXZaXautUgvjyfcv/CfpXzDm3FfUvF1+6f8AhP0r5Xxi2drfvEfqaomj/Z24K27Gr+wrHOTeJGJtdjV6m5qQDVq0l1fDo6FHAZWFiDsQRqK+e+buDjC4uSEXyA3QnfI23y1Hwq/YjnwLovm9qqHN3E1xZWS1nUEH+8OlSVik0q1cRRgJr29dauqLqeZhvamKkRwm21+wpgr2K3XQdKcZO2opH7OetOJCQetakoMMv+e1IKUTMII9ajnDsNhVeC1HFLFIBpWe1YJ5WtXrY1m8o0FRXe9OwrUkjDJY3G5o7h8MQLC1z3IA+ZNqG8MizMPSp3EsdEAylhci1suY/TSlJ8fBJwBJ4JdTsyFXX4FSafhxYQ2dCvuCPrUjkLm2PDQeC7L/AGjMoP5Q1tPnc/GrrFx7CyizKrX9jReGtT9MZFzfic8yWPkCXA6Xuc3x2pjgD5pI4j+FpUJ9l1b/AJQav3PHLuHmhMmHyxyRgmxsquu7KTsDpcH+tZrwt8sl+ysPYlWS/wAM1/hTJ4i3e12h4uzZsQwv4MZky/33JyL7bfKrTwTF/wDZlYm7MoJPdmFyfnVBwjXwWI/vBCP90VYeWZy+HQDoFv8AIV1lZS+R5hJi8TLpuIx7KBcfMX+NGOdgzeCiZs1yQEvmJtplt10PzqgckcQMc8kRNszk+5zEH9LfrVn45xUNikjZ8gRULNlDEL5jmVTodR6+xo0YquA4jLD4gjZAr3RgzC1xsC2lmF9DcDepGCi8Qfel2H911P8A00OTm/FRgomLdFvY+EEUMBmsykDS5PS2hHaktzjiSLftmNJ7/tEg+jVjTiRxLlUm5hZyf3Gjc/J1W36fGh6co4snSFz7RTn6RmktzNjT/tmKt64mU/8AmpB5ixfXFYg+88xH/VQWr/ZvHPhYcjYTEO1ybiNkQAkkXebJajWP+0ARMyPCiFct2eYZLuCRYopubKf8msx5d5ZxvEU8QTxOoNskzzG5B6izfOpXEeQuJIxMmHM0dvKIZcwVgAF8rEORa427a6VdDtek59L6nEYOFRuCzM7n06KPUg79aLcL4zLMyiOeGUNrZGUMAL33GotbUDvpWLjk7iDE2wWIGuxRvq2lFeDyNw/EL+1rJDLYOiHMxIclQVVL7lWGvrWsg2tubCykszyLkIFky5lFhre9ib1gH2kYMR4kWjjQsua0aBFIZmt5B+FrAX31J17aXwjmniGc+LhmMLkBXkWSIIzFVRLmO5GYnUgnUaDrmHO3MH7biS5iEeQeHYG9yhILE/p8KxjSNy+gY2NEsbwqg/B5srirl+2oRrWgqT8MpI4aas0rpTYkSjFql8UwJjN+h+tQKuPMGRkt8qp7C1JJNcBS4oixsBei2DwgX1b/ADtTx4XkLykC8Onm8wNhRHLYXWpMwNtANNwajwyi9itjXScfHpi3TTKGptUINTpsPbzDammWq8VKXFXpNNq9qju+tFuHEQmkk0pxSbVxbKjqREKjAVMj2pQzwiI5SRvbSgWJlGch1Pw0IPyq2ctRZhpQrm3CEOGtY7E9NOtBBM8f7hP+9/SpiZ01WEjqPxn6GlYXhEredI1nsLsqtcpc2BKqQSNtu+tONggP7SIoRuqoyke7SXt8qsWm8bx7EOuQuVQixUCwYHe99TQxGIOlGi8H/cg/xPJf/lYD9KfwODErZYcKHNr5VMhJA3IBfX4VYiOB49PDaJza4teiPKnGxB924Oht7gUibl2QZS+AnC3u5QMrhbG5UvdQdtxQrmfgz4SZlOcoTeKRhbOuVWHpcZgDbqDWvKg9xWQwYvxU/AXzp/eUm7LfvqR8qJ8x45JnimiIYNEVPcFWGhG4Pnqpvi3IALEgG4B6Ha9ISYgk96NTUOF8mYc4BZxCXndC3ma4FycpVdtRY633qiTQMhs6FT2Isf1p7Bcz4mMWXEuB2azL+oNqnS8z4hl88ME4I1OQ3HuFa497UYQF1plkqbLxBCDfChSeqvILfBrioX7QvrUmx/YmfuWHZzWsCsR+yrmPCYcNHNiFQs1xnDKLerEZR862nC4hJFDRurqdmUhgfYjShHayP7ZUy4vCv3C/Hw3lP6Z/1q88S5wgjUspDAaZ2OWM+x3b4DXoayj7QuaExZhbMC0TG2WN0Vkb8Vy5OosLaDc1vjLus8vTSy18LOP3J4X/AP55Sfnmr5+4mtp5v/uyf9bVrHA+MYhwwmVI4G8ISsOlxlS7PoAfKLg6k6bE1l/HIyuJnDAg+LIbEW0LEg+xBBB6g0WdmV3C4rmikoYVF4KutEMRvTGaigtUiBDcX2ptKXiHsptSkHjOJvcW22oMuFZ/61Oiw5Y3Y/CiMOGvsK3w/G3us8v0zqI/DsCq9bnr0p/9lsdPkd/8amjBd6dkiBFjv0NenxydOe6HPFazW02P8qjY/DW1qcj6lG2O1Ixo8ovWL3DEXDN5aZxTjbr2pAktcA1Gc61zvLpuRzvSbVxFeXrk2bZaQq045vS4lrJMOKlWstNMmtG2wf3W2tqkc4FxTwwal4OA46Ro8+VspKMQCpcbKb7A9xQ3l/h4nMiliuQLt/ezf0p7/wCJhFH4cUKh0cjOdmOqlsu4JGbQk2vpVqB4MQ8TXRijDQlTlI11Fx6j9KktxaU/jmkb0Z2P1ND42F80mut7dTruf8/Oi7cUAAWNFW/UaemuW31qAdPi7/mJ+NR1xTq+YHUa62YfEG4NGjGr3V79SSTe/W48w213vpah+M4TKozeGwS11J3I9rA/pTYpV14BzlM0TQnKzMMyl38sYJsVXMb26gEmx0Gm3vMcM2MVBiZkSOK5VlGlzZRcBbbAbHe+1BeC8LRoyQXY3sLKLiwHXXW9HOGTsbQyR692vZx9L+lODVaxnKLIwAdih3k8M5UF7a63PwFWAcpyRRosZgZCQzsxe8vlYWK6XXzaLfoDRGAyYcgG5iJ01uY9+35PpRXCM8PmjIaI6mMfkvcllPX2qzD7ZnxHl94XCtG0gZSQ0RNgdgGDJpY6kdjoTUHCwKJcrTBBe2fK1tr63tbXQ321rasRgkmQslmDDWx3/oay7jHLEwlIiikKn94Akb6XU6j1OtGfEI4jhKJr4WJK9JBLhyrA7G5AtTMXCVdlCq9tbmUxqugN7v4lgTppb40T5Z4disMmZ5Y0i3aGfxFVfUS5CqfO3pR/F8EgxIHhyAlRmyLJmTzdRkaxB7inb/VnxmnEsAI5BH4Qdjsqm97i9gUsG6bE70/wTiU2ElA8NoBcM6/eq7L/ALzC+l7dKJce4TioyRGgaNVAaA3ddD+MRsSbbHMCba670FhxBewOay3AQsWVOpCX/CDpp70f1fxYsO8mLkyRRtlRbJGLfdxLZRck2zGw/XtUyXkfEORmRgAdBmi6738xvUTk7mKHDeN4rZWZltZWJKgaDQHYlvnVkT7QcN3f/hrp0ziQOF4nwJcN4ZyyqlnzJ5HiIMbHuBbKRvaoZ5DZxkmkVlF8rAnxIuotdbML7roNSdDY1ZOC8eixIJibNlOuhBX3B2onmN9KujjJsVwKXBm0tiCbK4vlf27H096bw+GkmNoo2c/3QTb3Ow+NbHLhFlTLIqsNDYgEXGo0PqB8qZwkQjOQxKFP4SoAAbqrWHXcHr6m9ZwqfwTkJ2XNiMyk7IpXQd2axF/QVMg5agw8qpiIvFjlOWORj+ByNIpVHl1scr2FzoQDa97VdLjS36VC41hBNC6XsWGjaXRxqjj1DAH4UXuYp1VL515MihUYiBAqiwkQbLfRXUdB0I9QdNaqAxCi962bhmIGLwqu4Fpo/Mp6ZhZ0Psbj4Vi/MXCzh8Q8LX8p8rfvxt+BvfcH1Brf4/rf/NH6cJ7jnxg6Uw85PvTLZY1u5A+vwFDMVxfogt6nf5V25cs9ucmpfEJV0bN5h061FxWKZrX0FQFbMddSdaddTbWuN52t5jgb7UvJSEa1ePJpvQXklRmn7UmWW/tTVc7WpE4x0sCn4kvXk0djTg0iJPNR4Rs0dhQmBL1Z+FMABeniKG8GjMEkmbQFFPyYj+dVacjM7DW7sR7FjrV/4zCHU5DYlbfC4P8AKqjPwV+4qsMoRmqTg5LEf+1vj0pGIwbJuKRHbrt9fSsw1eOGYBMhcmxOpcEZ09nfRPr71J4RxxpEVMgB1B1JZtbZmY+Y336VSpOIuwAJ8o/CnT3NO4PiLRtmU6nc+vSumxjK1rljljMS+Y+bdR5UFtrKOtWaXkmBx5rm2o9D3FBPs94ooQRvIGe1zr3rRUbSs8rh4xnnMPBDABkUODoQx3qu4rjLYcIMkSozBfL+W/pVo+0/iIEYiVrSN+G2+lYtLgJbFmzWuN796Ztit7aLi5p4GaeOVCpW7Rm1tOq260c4bjf2mNJFKWYfEHtVCblSUgsraZb2JPau5e5ckkiUrM0ep0BPQ9qfETktHN/Ls8sLLC51sShN1a3Qdqz/AIZxOXCuI2LIVOxv5T1uvUe1XuHgeLT8GMvbo2oqv814V2scUF00EqfzFWVbFk4fxuLEWSayybqb+Vj3Ruh9N6g8wcuI5zWAb99RZj6tl3+R9qpOKneMeYh1/Kw2NtvY0c5d4jjp2VYirqN835R6nrRnw6Xg+V8OvkxGfOxJV72Dr0A3AI/z2otDyjgx++T2LJ9QulFsRFOFtNhxIo6rr+hoUxiAyxO0LjYEAfDzAkD2p9fxLPwvCpCgRFCKPyr3PVjuxonhphc6j51R8LxNYU++lMsl7XtZR2sP50xiOMFjdQwsCdAbG+g1It+taTUY5RauxUv3ZPbcd/8AN/0qh4Pmd0K+JG/hi12NkI/4yB+t6tuB4gk8DshuL2PocoO/WskVE2lx1F/mKjlvI1/em8LNeNemn8yKj4/EqEJ36f4UJH5OntFPGDpFiplHoHbxQPb7zSqj9qs4HhyqVzqSh0v5W/oQPmaCY3nI4eTFJGpOectvYeRVi1O/+rO3zqnca4xPOx8U7H8I2H9a45Zy2O28fDK9khLG7Nc9yahzJanELEC50t8aWCSuU7Dp0339TXa5XD0jxGxBqS2I01NE8BwEMod5kQHZbgvb1A2qWOD4YbzX+FZ04rLzk7CvMhtc1bkw+DS3mDfrQ/iGKiuVQeUkdOwqSv5RXmSpGIct/TtUzAKmQZlUnXffegnv2crrTM8t6smJjUrVaxcNjXSzGIcwcmoo9OvkuKrMINxRxsQfDtWYa9w87XAv1tXuPhsd6icKBeQDua0rh/LsbKC+tWnGZY/Fx+EU/Neq9Vk57w0UeIKxaaajtVarNpkek08z2W3U/oKZjGtc7XNGppXJnCgGimzalBW34VvKPasX5Xxi+DAl/MU+hrXeHAiMe1b5s8WcfaXkTF4ZzqczC3uKqvFONyYhTBBBqNyNToad+0rGv/pBFbZSCPjUr7NpAMY4ZdG7j41S9JDgxnEGtEiPewBGXbTvRHhfCsdDDl8Ng+ckHQixrYMNAl7gC9SzEO1Z8jjCeKcbniJRwQ/Un+XeqzxnirSLkJLH519C8U5bw8zBpIlYjuKES8i4USq6Rqp9BWvJY+e0wk2U2R8vsbUY5X4gIXv5lvoSp+o619Djl2DLbIKo/EvsoV52eOUoja5bA2PW1EsisQcHzFIBdXWRfXQ1Nl4lDMLTxDXuPoaWPskit/8AUOD6WqBxjkTEwpdJDOi622cf1q34s+vJeDaMcHPkJH4WsSNb+ViLjUUI/apAxSb7uRRdmkcgSEDVtfKxPzqPguKKpykkEHUdRRLFcRjmjKSqHFtG/MK15fVnwPTisQNlYuR/3EQtftmY5D86LcucWt+0JZ1uiEBsl73K7IoA/EOpqiQTRK1jIUUnWyk/HTrQ/HzDXJI7AnUEZQQPwkgHU6nfa9Z3tNZxfM8MIQSSgBUNyLsWI/EAANTcgfGqzxDnyOxEUUhbVgztZfkD6VnqnU+1OpGx2Uny2270+VWHvGu1zqWViT6+bWmAubIO97/D/wBqkQ8PkJAAANrakfy96akgeM2YFTYjUW0O+/vWUZSWw2rvHNII7VwQ0bSeGJPc1745Pem/DonhuXZZAGjs6k2uL6H1HSntdIUTA31tUjAYtA5WUeQ3JYC7rZTbLc9TYUjiHCZYSBILX27H/N6jR4ViLgA/EX09Ku0LJPh7Ob+Zl0z3YK1uhCUIk0NtD6i9jTRFe5vWrVi2Cc2qDjakqRTWLGlb3WcM4VRU2QaVDwO9TsWhy6VJZOXeCJo99avSSqkZ9BWUcH4tJHpuKuXDuMLKuUnca0YdZjzHjFkxErBd2te/ahbMLWG9G+ZeGAYlli1vrp0JpuDlidhfLas5T0DJVh5e5SmxJGmVe9T+BcsEPeUfCtJ4SGRbRptTOI17y/yPHCEJJLKKusMoUWvVPGPxma2QAUriaTsvlbK1SHsRwTDyv4jorN3Ip+LhuHQ3VFB76VVmws+TWY39Kq+NkmVjmmc/E04ta0k6A7j51L8Yd6w4Y2UNdWa/vU3hPMU7zrE7kAms2GNdxGMUdaal4gq2LGw7mhsWGAsTvUmbCpIMraipCYxaWvmHzpuPGBvw6jvQ6LgkA/KKnRQoosoAFHSNYxp94mjv2cHX4g0vBYmQi0yBW9DdT7daX4Q70K41hJWyiOTKLi5629Kkr/2gciLiAZ8OMkwGoG0g9fWsimxM0N1dNRcG+hr6LjxQTKjtqdAT1tVf5v5RjxH3iqM43H7/APjT/wBTFf8ARJKRyFh941svUXNH8ByzGoJbUr3219OtHm5cW4O2Q6DsRTUgZGN1uCN/UV042MWVBxPD0QXWNFv1GUfyqCWTa6+wDN+gsKOx4pTodD7X/Q0N4xgZrZkm8v8AdUaVrPg36YW4/DHIR6KqD+tRnwCYuQI7eH4ak/izs2oFt9O9BcZGw/tHd77eY5TUFMaY2vGSptbTsa529tLlHyzhF3aQ262Gv9KT/o3BDfN8xv8AOqVNxB23dj7k0wZz3p814rricHhACQNBv5lB+G/rRn7PcTEZJY0BAKq2puLg2PTTcfKsvMhNGuAYx8M7FwyEpYBgVJBIN7HppR5avHFy+0VUDxOAMzKykd8pBB+GY1QuMApkhy2yAsT1cubg+2XKB8ak8ycVM2TW9r9e9v6ULaW4Tut7+uulFpkNZqTen5ddbWqPWa0NlyKS0t60p+WEP5aYbk+M9K3jGqFhTaiTtddKtB5NSvByhbYmlKS2YdaVDOQdGtVqxfJ7nY0Kk5RmB0qBXCJ0U5msT3O9Hm44Dooqunl+dfy1HxGEnUfgNRWFeMKG1Iq08K5tw6rZmArGJ0lB1VvkajtM/rRaW44znTDjUOKrfEftBQfgGb2rLfEJ3r3NRqaRgebpZewHzo1A8cikuwvWbcCmINjoO9L4zMyt5X+Rp/gaXgMDFuNaCceyQzpINCCKrHCua2jFjrUTinFXxD+grP8AWtaniOZ2CAjtQVvtBIO9VKXizLHlNr2sD/hVbMjX1rVyMy60jFfaWw2obN9pM5OjECqRLTFZtaazwr7Sm0z1cOC82xz6k2A7189wHWrHhuISRrYCw70zKKvnOPHvFmURtpGdCO9WTlPmxZQIpTaQbH97/GsXfiRvvSYeJsGzAkEU3Ktb1zBw0sC8X4uo/e/xqoLPfQ/EGpvI/OyzgRTGzjQE/m/xqXzbwIsDNAPMNWUfmHcetE+VA0mAjfW2tRRA8R01XqKg4Ti9tDU2XiYPWtTZ6XStcfgKEugvG26/umqe2HJaygsTtbc1qmRXU6b0A4hwyxBjsrLsw0Iq5didKY+AkBsyEH1Fq8gwMjsEVCWOw06ep0qwY5wh+9d2aomB4mkUokTNcdzpWfGHaR/oWVL5ioOUiwN21Htb0360OmWQfiuff/GthwPEIZowW8Mk9DlNQ51wytfLGu/RB2pwayqGSO1nQ36Mu/pdToR8RR3inEcL4YGFjI11zAFgCtmC9hcLUXmx4vH+6yFSouFtYNrc3Glz6dqEwoCdDb3sPrpWfTRGppS4Vz+U/I1Jkikj8wFvWym1/mK5sYWsTIRYAWzbWHSygCrPq19ABaWFFeV1BLCClBBXtdVqe+EK7wB2ryuq1PDhFPSmZOGoeldXUyjIiS8AjbdRUKblGE/lFdXU+VGRBl5GhP5aivyDF0FdXU+Sww/IgH4SaE4/kKU7Ma6uq0BD8kYgHanYeX5o1N0rq6mC0MxPDZi1yhqJPhmG6n5V1dTeJ1DmFM15XVzrUPxLepMmKa2W9eV1SNGNrX6d6bD17XVWCHsPiihDKbEVrfI3O4lAhnPm2DH83ofWvK6qJ3O/LBN8Rhxru6D83qPWqNhMUSbGva6tcVRyGU23psvreurq1QbmwAmIJ6VDfgasGKqOwPaurqLOjCsBhIrCJrh7WvrrXmM5Ukv5Tf0O31ryuowaZTl6RhldRp6WZfYihHEOBy4c57ZkH5h0/iHT3rq6jFobNimZsxNztrrp2pqRrm9gPbaurqy0/9k=" alt="Gear Box Repair">
+        <h3>Service Name</h3>
+        <p>Service Description here...</p><br>
+        <a href="#" class="btn small">Request Service</a><br> <br>
+        </div>
+        <div class="service-card" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYcbI4tEjBj4MCZzFsUFOzkKfvUcf3leciA&s" alt="Gear Box Repair">
+        <h3>Service Name</h3>
+        <p>Service Description here...</p><br>
+        <a href="#" class="btn small">Request Service</a><br> <br>
+        </div>
+        <div class="service-card" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1LJrUIT2SA6cH-OkuzaXgqzsZPpDc_FdLcw&s" alt="Gear Box Repair">
+        <h3>Service Name</h3>
+        <p>Service Description here...</p><br>
+        <a href="#" class="btn small">Request Service</a><br> <br>
+        </div>
+        <div class="service-card" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1LJrUIT2SA6cH-OkuzaXgqzsZPpDc_FdLcw&s" alt="Gear Box Repair">
+        <h3>Service Name</h3>
+        <p>Service Description here...</p><br>
+        <a href="#" class="btn small">Request Service</a> <br> <br>
+        </div>
+    </div>
+</section>
+
+<section class="business-hours">
+    <h2>Business Operating Hours</h2>
+    <p>Mon - Fri: 7am - 5pm<br>Sat: 8am - 12pm<br>Sunday & Public Holidays: Closed</p>
+</section>
+
+<section class="form">
+    <h2>Get In Touch</h2>
+    <div class="form-grid">
+        <div class="form">
+            <form action="">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="number" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="vehicle" placeholder="Vehicle Make & Model" required>
+                <textarea name="message" placeholder="Type your message here..."></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+        <div class="content-side">
+            <h2><img src="/geo-alt-fill.svg" alt="Location Icon"> 20 Bokmakierie Cresent Dougladale Fourways, 2191</h2>
+            <h2><img src="/envelope-at-fill.svg" alt="Email Icon"> <a href="mailto:">service@silverauto.co.za</a></h2>
+            <h2><img src="/telephone-inbound-fill.svg" alt="Phone Icon"> <a href="tel:+"> 010 095 9875</a></h2>
+        </div>
+    </div>
+</section><br>
+
+<section class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.1569491673417!2d27.9895060111939!3d-26.028420256743228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9576990386797f%3A0x3a4f36574d954bfb!2s20%20Bokmakierie%20Cres%2C%20Fourways%2C%20Sandton%2C%202055!5e0!3m2!1sen!2sza!4v1760690780517!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+
+<footer>
+    <p> &copy; 2025 Silverback Auto | Developed by <a href="https://mlifi.co.za/" target="_blank" rel="noopener noreferrer">Mlifi Solutions</a></p>
+</footer>
+
+<!-- <div class="cookie-popup" id="cookie-popup">
+    <p>We use cookie to improve your experience. By using our site, you agree to our <a href="http://" target="_blank" rel="noopener noreferrer">cookie policy.</a></p>
+    <button id="accept-cookies" class="btn small">Accept</button>
+</div> -->
+<script src="script.js"></script>
+<script>
+    const animatedElements = document.querySelectorAll(".fade-in, .fade-in-up");
+
+    const observer = new IntersectionObserver(
+        entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = "running";
+            observer.unobserve(entry.target);
+            }
+        });
+        },
+        { threshold: 0.2 }
+    );
+
+    animatedElements.forEach(el => {
+        el.style.animationPlayState = "paused";
+        observer.observe(el);
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

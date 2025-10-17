@@ -1,0 +1,18 @@
+Website Ideas
+
+- Implement Google Analytics.
+- Have Meta tags that can rank higher on SEO
+- Use Form-Submit to handle form.
+- Use Bootstrap CDN.
+- Get website content from both the site owner and internet.
+- Get Assets (high quality images, logo etc.)
+- Have Icons.
+- Best practice HTML and CSS.
+- Integrate Google Maps
+
+Business Details
+
+- Name: Silverback Auto
+- Address: 20 Bokmakierie Cresent Dougladale Fourways, 2191
+- Services: some as example
+
